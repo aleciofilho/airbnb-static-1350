@@ -1,0 +1,7 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(<%= @flatizinho["imageUrl"] %>);">
+</div>
+<div class="container mt-4">
+  <h1><strong><%= @flatizinho["name"] %></strong></h1>
+  <p>$ <%= @flatizinho["price"] %></p>
+  <strong><%= link_to "<- Back to home", root_path, class: "text-decoration-none text-dark" %></strong>
+</div>
